@@ -61,7 +61,7 @@
   <data name="logoPictureBox.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAJgAAAEtCAYAAAD0sqlTAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wQAADsEBuJFr7QAAIfNJREFUeF7tnHd4VUX6x3fVdXd/ruu6uuqKBV2UIjWdkEI66T0hpJJGR7oCCkgX
+        wAAADsABataJCQAAIfNJREFUeF7tnHd4VUX6x3fVdXd/ruu6uuqKBV2UIjWdkEI66T0hpJJGR7oCCkgX
         QUSpShekSW9iA0UQAVEUVnRFQZTei6Ko3998596bcxMPkBgG/eO9z/N5kjt3zpz2uTPvlHP/cGpNEQTB
         FCKYYBQRTDCKCCYYRQQTjCKCCUYRwQSjiGCCUUQwwSgimGAUEUwwiggmGEUEE4wigglGEcEEo4hgglFE
         MMEoIphgFBFMMIoIJhhFBBOMIoIJRhHBBKOIYIJRRDDBKCKYYBQRTDCKCCYYRQQTjCKCCUYRwQSjiGCC
@@ -222,7 +222,7 @@ Aplicativo aprovado pelo docente: Fábio Cunha</value>
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAfQAAAH0CAYAAADL1t+KAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wQAADsEBuJFr7QAAW1FJREFUeF7t3QW4FdX+xvH/vdfuArEA6a5Dd3d35wEFBUVAsAsxETFAQERRsQNF
+        wAAADsABataJCQAAW1FJREFUeF7t3QW4FdX+xvH/vdfuArEA6a5Dd3d35wEFBUVAsAsxETFAQERRsQNF
         sVtMvMa146rY3e39/edde89xc87sOMXhLL/zPJ8H2Hv21N6sd9aaNWv+79u7JxkAACjdCHQAADxAoAMA
         4AECHQAADxDoAAB4gEAHAMADBDoAAB4g0AEA8ACBDgCABwh0AAA8QKADAOABAh0AAA8Q6AAAeIBABwDA
         AwQ6AAAeINABAPAAgQ4AgAcIdAAAPECgAwDgAQIdAAAPEOgAAHiAQAcAwAMEOgAAHiDQAQDwAIEOAIAH

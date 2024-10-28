@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Tabajara
 {
-    public partial class Form2 : Form
+    public partial class Supervisor : Form
     {
-        public Form2()
+        public Supervisor()
         {
             InitializeComponent();
         }

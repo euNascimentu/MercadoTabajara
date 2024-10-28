@@ -1,6 +1,6 @@
 ﻿namespace Tabajara
 {
-    partial class Form2
+    partial class Supervisor
     {
         /// <summary>
         /// Required designer variable.
@@ -28,12 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form2";
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Supervisor));
+            button1 = new Button();
+            SuspendLayout();
+            // 
+            // button1
+            // 
+            button1.Location = new Point(351, 78);
+            button1.Name = "button1";
+            button1.Size = new Size(111, 92);
+            button1.TabIndex = 0;
+            button1.Text = "aleluia";
+            button1.UseVisualStyleBackColor = true;
+            // 
+            // Supervisor
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            ClientSize = new Size(754, 461);
+            Controls.Add(button1);
+            DoubleBuffered = true;
+            Name = "Supervisor";
+            Text = "Supervisor";
+            ResumeLayout(false);
         }
 
         #endregion
+
+        private Button button1;
     }
 }
