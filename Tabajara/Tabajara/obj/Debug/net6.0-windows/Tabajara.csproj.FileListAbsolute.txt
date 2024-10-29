@@ -42,3 +42,5 @@ C:\Users\fernando.nprimo\source\repos\Tabajara\Tabajara\obj\Debug\net6.0-windows
 C:\Users\fernando.nprimo\source\repos\Tabajara\Tabajara\obj\Debug\net6.0-windows\Tabajara.genruntimeconfig.cache
 C:\Users\fernando.nprimo\source\repos\Tabajara\Tabajara\obj\Debug\net6.0-windows\ref\Tabajara.dll
 C:\Users\fernando.nprimo\source\repos\Tabajara\Tabajara\obj\Debug\net6.0-windows\Tabajara.SobreTabajara.resources
+C:\Users\fernando.nprimo\source\repos\Tabajara\Tabajara\obj\Debug\net6.0-windows\Tabajara.Supervisor.resources
+C:\Users\fernando.nprimo\source\repos\Tabajara\Tabajara\obj\Debug\net6.0-windows\Tabajara.Caixa.resources

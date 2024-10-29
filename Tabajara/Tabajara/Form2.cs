@@ -16,5 +16,21 @@ namespace Tabajara
         {
             InitializeComponent();
         }
+
+        private void btnVoltarIncio_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void rdbCaixa_CheckedChanged(object sender, EventArgs e)
+        {
+            panelCaixa.BringToFront();
+            panelCaixa.Visible = true;
+        }
+        private void rdbProduto_CheckedChanged(object sender, EventArgs e)
+        {
+            panelProduto.BringToFront();
+            panelProduto.Visible = true;
+        }
     }
 }

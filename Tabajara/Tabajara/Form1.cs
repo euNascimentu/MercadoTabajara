@@ -14,30 +14,14 @@ namespace Tabajara
 
         private void btnSupervisor_Click(object sender, EventArgs e)
         {
-            /* Habilita as LBL's e as TXT's para o supervisor acessar */
-            lblCPFLogin.Visible = true;
-            lblLoginNome.Visible = true;
-            txtCPFLogin.Visible = true;
-            txtNomeLogin.Visible = true;
-            /* Desabilita as LBL's e as TXT's do caixa */
-            lblCodUnico.Visible = false;
-            lblSenhaCaixa.Visible = false;
-            txtCodUnico.Visible = false;
-            txtSenhaCaixa.Visible = false;
+            Supervisor supervisor = new Supervisor();
+            supervisor.ShowDialog();
         }
 
         private void btnCaixa_Click(object sender, EventArgs e)
         {
-            /* Habilita as LBL's e as TXT's para o caixa acessar */
-            lblCodUnico.Visible = true;
-            lblSenhaCaixa.Visible = true;
-            txtCodUnico.Visible = true;
-            txtSenhaCaixa.Visible = true;
-            /* Desabilita as LBL's e as TXT's do supervisor */
-            lblCPFLogin.Visible = false;
-            lblLoginNome.Visible = false;
-            txtCPFLogin.Visible = false;
-            txtNomeLogin.Visible = false;
+            Caixa caixa = new Caixa();
+            caixa.ShowDialog();
         }
 
 

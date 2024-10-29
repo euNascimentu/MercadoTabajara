@@ -111,8 +111,10 @@
             DoubleBuffered = true;
             Font = new Font("Arial Rounded MT Bold", 9F, FontStyle.Regular, GraphicsUnit.Point);
             FormBorderStyle = FormBorderStyle.Fixed3D;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MainMenuStrip = menuStrip1;
             Name = "TabajaraInicial";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Mercado Tabajara";
             Load += Form1_Load;
             menuStrip1.ResumeLayout(false);
