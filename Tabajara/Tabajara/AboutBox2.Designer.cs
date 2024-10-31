@@ -153,6 +153,7 @@
             okButton.Size = new Size(88, 27);
             okButton.TabIndex = 24;
             okButton.Text = "&OK";
+            okButton.Click += okButton_Click;
             // 
             // SobreTabajara
             // 
@@ -172,7 +173,7 @@
             ShowInTaskbar = false;
             StartPosition = FormStartPosition.CenterParent;
             Text = "Sobre";
-            Load += SobreTabajara_Load;
+          //  Load += SobreTabajara_Load;
             tableLayoutPanel.ResumeLayout(false);
             tableLayoutPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)logoPictureBox).EndInit();
