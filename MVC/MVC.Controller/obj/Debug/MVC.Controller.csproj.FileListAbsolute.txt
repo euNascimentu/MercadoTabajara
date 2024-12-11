@@ -1,0 +1,6 @@
+C:\Users\fernando.nprimo\source\repos\MVC\MVC.Controller\bin\Debug\MVC.Controller.dll
+C:\Users\fernando.nprimo\source\repos\MVC\MVC.Controller\bin\Debug\MVC.Controller.pdb
+C:\Users\fernando.nprimo\source\repos\MVC\MVC.Controller\obj\Debug\MVC.Controller.csproj.AssemblyReference.cache
+C:\Users\fernando.nprimo\source\repos\MVC\MVC.Controller\obj\Debug\MVC.Controller.csproj.CoreCompileInputs.cache
+C:\Users\fernando.nprimo\source\repos\MVC\MVC.Controller\obj\Debug\MVC.Controller.dll
+C:\Users\fernando.nprimo\source\repos\MVC\MVC.Controller\obj\Debug\MVC.Controller.pdb

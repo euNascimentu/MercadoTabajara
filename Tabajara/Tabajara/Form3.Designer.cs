@@ -51,6 +51,8 @@
             textBox5 = new TextBox();
             btnRemoverProduto = new Button();
             grbFormasPagamento = new GroupBox();
+            lblValorTotal = new Label();
+            lblTotal = new Label();
             rdbDinheiro = new RadioButton();
             rdbDebito = new RadioButton();
             rdbCredito = new RadioButton();
@@ -58,8 +60,7 @@
             btnPagar = new Button();
             lblValorTotal1 = new Label();
             lblValorTotal2 = new Label();
-            lblTotal = new Label();
-            lblValorTotal = new Label();
+            btnVoltar = new Button();
             grbCupomFiscal.SuspendLayout();
             grbProdutoAtual.SuspendLayout();
             grbDetalhesCupom.SuspendLayout();
@@ -78,6 +79,7 @@
             grbCupomFiscal.Size = new Size(267, 243);
             grbCupomFiscal.TabIndex = 1;
             grbCupomFiscal.TabStop = false;
+            grbCupomFiscal.Enter += grbCupomFiscal_Enter;
             // 
             // btnAbreCupom
             // 
@@ -95,6 +97,7 @@
             btnAbreCupom.Text = "Abrir Cupom";
             btnAbreCupom.TextAlign = ContentAlignment.BottomCenter;
             btnAbreCupom.UseVisualStyleBackColor = true;
+            btnAbreCupom.Click += btnAbreCupom_Click;
             // 
             // txtCupomFiscal
             // 
@@ -114,6 +117,7 @@
             ckbCupomFiscal.TabIndex = 2;
             ckbCupomFiscal.Text = "Cupom Fiscal";
             ckbCupomFiscal.UseVisualStyleBackColor = true;
+            ckbCupomFiscal.CheckedChanged += ckbCupomFiscal_CheckedChanged;
             // 
             // lblMercadoLogo
             // 
@@ -156,6 +160,7 @@
             grbProdutoAtual.TabIndex = 4;
             grbProdutoAtual.TabStop = false;
             grbProdutoAtual.Text = "Produto Atual";
+            grbProdutoAtual.Enter += grbProdutoAtual_Enter;
             // 
             // btnAdicionarProduto
             // 
@@ -255,6 +260,7 @@
             grbDetalhesCupom.TabIndex = 5;
             grbDetalhesCupom.TabStop = false;
             grbDetalhesCupom.Text = "Carrinho";
+            grbDetalhesCupom.Enter += grbDetalhesCupom_Enter;
             // 
             // richTextBox1
             // 
@@ -318,6 +324,25 @@
             grbFormasPagamento.TabIndex = 9;
             grbFormasPagamento.TabStop = false;
             grbFormasPagamento.Text = "Formas de Pagamentos";
+            grbFormasPagamento.Enter += grbFormasPagamento_Enter;
+            // 
+            // lblValorTotal
+            // 
+            lblValorTotal.AutoSize = true;
+            lblValorTotal.Location = new Point(128, 60);
+            lblValorTotal.Name = "lblValorTotal";
+            lblValorTotal.Size = new Size(19, 14);
+            lblValorTotal.TabIndex = 20;
+            lblValorTotal.Text = "...";
+            // 
+            // lblTotal
+            // 
+            lblTotal.AutoSize = true;
+            lblTotal.Location = new Point(49, 60);
+            lblTotal.Name = "lblTotal";
+            lblTotal.Size = new Size(73, 14);
+            lblTotal.TabIndex = 19;
+            lblTotal.Text = "Valor Total:";
             // 
             // rdbDinheiro
             // 
@@ -404,23 +429,19 @@
             lblValorTotal2.TabIndex = 16;
             lblValorTotal2.Text = "...";
             // 
-            // lblTotal
+            // btnVoltar
             // 
-            lblTotal.AutoSize = true;
-            lblTotal.Location = new Point(49, 60);
-            lblTotal.Name = "lblTotal";
-            lblTotal.Size = new Size(73, 14);
-            lblTotal.TabIndex = 19;
-            lblTotal.Text = "Valor Total:";
-            // 
-            // lblValorTotal
-            // 
-            lblValorTotal.AutoSize = true;
-            lblValorTotal.Location = new Point(128, 60);
-            lblValorTotal.Name = "lblValorTotal";
-            lblValorTotal.Size = new Size(19, 14);
-            lblValorTotal.TabIndex = 20;
-            lblValorTotal.Text = "...";
+            btnVoltar.FlatAppearance.BorderColor = Color.Black;
+            btnVoltar.FlatAppearance.MouseDownBackColor = Color.Silver;
+            btnVoltar.FlatAppearance.MouseOverBackColor = Color.FromArgb(241, 185, 99);
+            btnVoltar.FlatStyle = FlatStyle.Flat;
+            btnVoltar.Location = new Point(16, 262);
+            btnVoltar.Name = "btnVoltar";
+            btnVoltar.Size = new Size(73, 26);
+            btnVoltar.TabIndex = 10;
+            btnVoltar.Text = "Voltar";
+            btnVoltar.UseVisualStyleBackColor = true;
+            btnVoltar.Click += btnVoltar_Click;
             // 
             // Caixa
             // 
@@ -428,6 +449,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(241, 185, 99);
             ClientSize = new Size(1604, 785);
+            Controls.Add(btnVoltar);
             Controls.Add(grbFormasPagamento);
             Controls.Add(grbDetalhesCupom);
             Controls.Add(grbProdutoAtual);
@@ -485,5 +507,6 @@
         private RadioButton rdbCredito;
         private Label lblValorTotal;
         private Label lblTotal;
+        private Button btnVoltar;
     }
 }

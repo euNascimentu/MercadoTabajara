@@ -103,7 +103,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 14F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackgroundImage = Properties.Resources.TabajaraAmarelo;
             ClientSize = new Size(560, 447);
             Controls.Add(btnCaixa);
             Controls.Add(btnSupervisor);

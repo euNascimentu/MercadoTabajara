@@ -1,0 +1,6 @@
+C:\Users\fernando.nprimo\source\repos\MVC\MVC.DAO\bin\Debug\MVC.DAO.dll
+C:\Users\fernando.nprimo\source\repos\MVC\MVC.DAO\bin\Debug\MVC.DAO.pdb
+C:\Users\fernando.nprimo\source\repos\MVC\MVC.DAO\obj\Debug\MVC.DAO.csproj.AssemblyReference.cache
+C:\Users\fernando.nprimo\source\repos\MVC\MVC.DAO\obj\Debug\MVC.DAO.csproj.CoreCompileInputs.cache
+C:\Users\fernando.nprimo\source\repos\MVC\MVC.DAO\obj\Debug\MVC.DAO.dll
+C:\Users\fernando.nprimo\source\repos\MVC\MVC.DAO\obj\Debug\MVC.DAO.pdb

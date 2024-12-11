@@ -1,0 +1,17 @@
+C:\Users\fernando.nprimo\source\repos\MVC\MVC.View\bin\Debug\net6.0-windows\MVC.View.exe
+C:\Users\fernando.nprimo\source\repos\MVC\MVC.View\bin\Debug\net6.0-windows\MVC.View.deps.json
+C:\Users\fernando.nprimo\source\repos\MVC\MVC.View\bin\Debug\net6.0-windows\MVC.View.runtimeconfig.json
+C:\Users\fernando.nprimo\source\repos\MVC\MVC.View\bin\Debug\net6.0-windows\MVC.View.dll
+C:\Users\fernando.nprimo\source\repos\MVC\MVC.View\bin\Debug\net6.0-windows\MVC.View.pdb
+C:\Users\fernando.nprimo\source\repos\MVC\MVC.View\obj\Debug\net6.0-windows\MVC.View.csproj.AssemblyReference.cache
+C:\Users\fernando.nprimo\source\repos\MVC\MVC.View\obj\Debug\net6.0-windows\MVC.View.Form1.resources
+C:\Users\fernando.nprimo\source\repos\MVC\MVC.View\obj\Debug\net6.0-windows\MVC.View.csproj.GenerateResource.cache
+C:\Users\fernando.nprimo\source\repos\MVC\MVC.View\obj\Debug\net6.0-windows\MVC.View.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fernando.nprimo\source\repos\MVC\MVC.View\obj\Debug\net6.0-windows\MVC.View.AssemblyInfoInputs.cache
+C:\Users\fernando.nprimo\source\repos\MVC\MVC.View\obj\Debug\net6.0-windows\MVC.View.AssemblyInfo.cs
+C:\Users\fernando.nprimo\source\repos\MVC\MVC.View\obj\Debug\net6.0-windows\MVC.View.csproj.CoreCompileInputs.cache
+C:\Users\fernando.nprimo\source\repos\MVC\MVC.View\obj\Debug\net6.0-windows\MVC.View.dll
+C:\Users\fernando.nprimo\source\repos\MVC\MVC.View\obj\Debug\net6.0-windows\refint\MVC.View.dll
+C:\Users\fernando.nprimo\source\repos\MVC\MVC.View\obj\Debug\net6.0-windows\MVC.View.pdb
+C:\Users\fernando.nprimo\source\repos\MVC\MVC.View\obj\Debug\net6.0-windows\MVC.View.genruntimeconfig.cache
+C:\Users\fernando.nprimo\source\repos\MVC\MVC.View\obj\Debug\net6.0-windows\ref\MVC.View.dll
